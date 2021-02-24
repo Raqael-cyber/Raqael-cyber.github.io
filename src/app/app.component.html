@@ -1,0 +1,23 @@
+<app-courses></app-courses>
+
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="navbar-nav">
+    <p> 
+        <a style="text-align: left;" class="nav-item nav-link" routerLink="/">Home </a> &nbsp;  
+        <a style="text-align: center;" class="nav-item nav-link" routerLink="/login">Login </a> &nbsp;
+        <a style="text-align: right;"  class="nav-item nav-link" routerLink="/register">Register</a>
+    </p>
+    </div>
+</nav>
+
+<!-- main content container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
