@@ -1,32 +1,3 @@
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  min-height: 100vh;
-  background: #8f8383;
-}
-
-nav .navbar{
-	float: right;
-}
-nav .navbar ul{
-	list-style: none;
-	padding:0;
-	margin:0;
-}
-.navbar ul li{
-	display: inline;
-	padding:0 15px;
-}
-.navbar ul li nav-item nav-link{
-	display: inline-block;
-	padding:10px 0px;
-	font-size: 16px;
-	text-transform: uppercase;
-	color:#b91616;
-	position: relative;
+.bg-dark {
+	background-color: brown;
 }
