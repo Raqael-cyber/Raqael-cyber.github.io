@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class LoginComponent implements OnInit {
+  username = '';
+  password = '';
+  reversedUsername = this.username.split("").reverse().join("");
+  reversedPassword = this.password.split("").reverse().join("");
 
   constructor() { }
 
-  ngOnInit(): void { 
-  }
-  
-}
+  ngOnInit(): void {}
 
+  submitMe(){
+    this.reversedUsername = this.username.split("").reverse().join("");
+    this.reversedPassword = this.password.split("").reverse().join("");
+  }
+}
