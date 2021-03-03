@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
 
   constructor() { }
@@ -12,8 +13,5 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void { 
   }
   
-  .btn-block {
-      document.write("hello");
-  }
 }
 
