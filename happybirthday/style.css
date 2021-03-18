@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+body {
+background-color: #4986a1;
+ background-image: url("images/jIxA7X.jpg");
+}
+
+ 
+.intro {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;  
+     
+}
+
+.video1{
+  float: left;
+  width: 100%    !important;
+  
+
+}                 
+.Valen-card {
+  margin: 40px auto;
+  padding: 16px;
+  width: 80%;
+ background-image: linear-gradient(-215deg , #5cd9f0     , #5cd9f0 ,#26a3c9 ,   #5cd9f0,   #26a3c9  ,      #36647e); 
+  text-align: center;
+  box-shadow: 0 24px 40px -8px #89a7af;
+  border-radius:3px;
+}
+
+.Valen-img {
+    border-radius:5px;
+    width:100%;
+}
+
+.pclr {
+    color:rgb(170, 10, 90);
+    font-family: "hi melody", sans-serif;
+    font-size:15px;
+}
+
+
+.infobg {
+ background-image: linear-gradient( -45deg,   rgb(7, 41, 155) , rgb(184, 18, 134) );
+    -webkit-text-fill-color: transparent ;
+    -webkit-background-clip:text; 
+}
